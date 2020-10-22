@@ -1,4 +1,30 @@
-body {
-    background-color: #ffffff;
+* {
     font-family: "Inter", sans-serif;
 }
+
+body {
+    background-color: #ffffff;
+    margin: 5% 0 0 8%;
+}
+
+.wrapper-content {
+    max-width: 700px;
+    height: 706px;
+}
+
+.wrapper-title {
+    padding-bottom: 22px;
+    font-weight: 600;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    margin: 10px;
+}
+
+@import "button.scss";
