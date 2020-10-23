@@ -17,8 +17,8 @@ body {
 }
 
 .wrapper-tab {
-  margin-top: 110px;
-  width: 380px;
+  margin-top: 120px;
+  width: 500px;
   height: 700px;
 }
 
@@ -36,6 +36,10 @@ button {
   cursor: pointer;
   outline: none;
   margin: 10px;
+}
+
+.search {
+  display: flex;
 }
 
 .wrapper-big__btn {
@@ -149,12 +153,93 @@ button {
   color: #2c2c2c;
 }
 
-.tab-big button {
+.tab-big button,
+.tab-small button {
   margin: 0;
+  border: 1px solid #e0e0e0;
+}
+
+.tab-top {
+  display: flex;
+}
+
+.tab-small {
+  margin-top: 112px;
+  display: flex;
+}
+
+.tab-center,
+.tab-bot {
+  margin-top: 20px;
+  display: flex;
+}
+
+.tab-top_size {
+  width: 56px;
+  height: 48px;
+}
+
+.tab-center_size {
+  width: 134px;
+  height: 46px;
+}
+
+.tab-bot_size {
+  width: 106px;
+  height: 46px;
+}
+
+.tab-small_size {
+  width: 86px;
+  height: 36px;
+}
+
+.tab_size {
+  width: 48px;
+  height: 36px;
+}
+
+.tab-small_sizes {
+  width: 58px;
+  height: 36px;
 }
 
 .tab-btn {
-  background: #18a0fb;
-  color: white;
   border-radius: 5px 0px 0px 5px;
+  color: white;
+}
+
+.tab-btn2 {
+  border-radius: 0px 0px 0px 0px;
+}
+
+.tab-btn3 {
+  border-radius: 0px 5px 5px 0px;
+}
+
+.btn-active {
+  background: #18a0fb;
+}
+
+.btn-no-active {
+  background: #ffffff;
+}
+
+.search-bg {
+  width: 36px;
+  height: 36px;
+  background: #ff3e1d;
+  border-radius: 50%;
+}
+
+.search--margin {
+  margin-left: 50px;
+  margin-top: 20px;
+}
+
+.search-bg_green {
+  width: 48px;
+  height: 48px;
+  background: #00d200;
+  border-radius: 50%;
 }
