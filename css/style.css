@@ -148,3 +148,13 @@ button {
   background: rgba(224, 224, 224, 0.3);
   color: #2c2c2c;
 }
+
+.tab-big button {
+  margin: 0;
+}
+
+.tab-btn {
+  background: #18a0fb;
+  color: white;
+  border-radius: 5px 0px 0px 5px;
+}
