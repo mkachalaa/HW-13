@@ -4,7 +4,10 @@
 
 body {
     background-color: #ffffff;
-    margin: 5% 0 0 8%;
+    margin: 0 0 0 5%;
+}
+.wrapper {
+    display: flex;
 }
 
 .wrapper-content {
@@ -12,11 +15,18 @@ body {
     height: 706px;
 }
 
+.wrapper-tab {
+    margin-top: 110px;
+    width: 380px;
+    height: 700px;
+}
+
 .wrapper-title {
     padding-bottom: 22px;
     font-weight: 600;
     font-size: 25px;
     line-height: 30px;
+    margin-top: 60px;
 }
 
 button {
@@ -28,3 +38,5 @@ button {
 }
 
 @import "button.scss";
+@import "tag.scss";
+@import "tab.scss";

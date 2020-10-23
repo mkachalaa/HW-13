@@ -14,7 +14,6 @@
     }
 
     &--dark-grey {
-        color: #878787;
         background: rgba(224, 224, 224, 0.3);
         color: #878787;
     }
@@ -32,13 +31,49 @@
     }
 }
 
-.icon-color &--grey path {
-    stroke: red;
+.wrapper-small__btn--blue-white {
+    background: #ff3e1d;
+    color: #ffffff;
+}
+
+.icon_color {
+    &--light-grey path {
+        stroke: #878787;
+    }
+    &--dark-grey path {
+        stroke: #2c2c2c;
+    }
+
+    &--light-blue path {
+        stroke: #18a0fb;
+    }
 }
 
 .wrapper-big__btn--icon {
     display: inline-flex;
     .bnt-title {
-        margin: 10px;
+        padding: 10px;
     }
+}
+
+.wrapper-small__btn {
+    width: 111px;
+    height: 36px;
+    .bnt-title {
+        padding: 8px;
+    }
+}
+
+.wrapper-small-btn_margin {
+    margin-right: 50px;
+}
+
+.wrapper-buttons_icon--size {
+    width: 20px;
+    height: 20px;
+    align-self: center;
+}
+
+.small__btn--icon {
+    display: inline-flex;
 }

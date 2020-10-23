@@ -4,7 +4,11 @@
 
 body {
   background-color: #ffffff;
-  margin: 5% 0 0 8%;
+  margin: 0 0 0 5%;
+}
+
+.wrapper {
+  display: flex;
 }
 
 .wrapper-content {
@@ -12,11 +16,18 @@ body {
   height: 706px;
 }
 
+.wrapper-tab {
+  margin-top: 110px;
+  width: 380px;
+  height: 700px;
+}
+
 .wrapper-title {
   padding-bottom: 22px;
   font-weight: 600;
   font-size: 25px;
   line-height: 30px;
+  margin-top: 60px;
 }
 
 button {
@@ -41,7 +52,6 @@ button {
   color: white;
 }
 .wrapper-big__btn--dark-grey {
-  color: #878787;
   background: rgba(224, 224, 224, 0.3);
   color: #878787;
 }
@@ -56,13 +66,85 @@ button {
   color: #18a0fb;
 }
 
-.icon--color path {
-  stroke: red;
+.wrapper-small__btn--blue-white {
+  background: #ff3e1d;
+  color: #ffffff;
+}
+
+.icon_color--light-grey path {
+  stroke: #878787;
+}
+.icon_color--dark-grey path {
+  stroke: #2c2c2c;
+}
+.icon_color--light-blue path {
+  stroke: #18a0fb;
 }
 
 .wrapper-big__btn--icon {
   display: inline-flex;
 }
 .wrapper-big__btn--icon .bnt-title {
-  margin: 10px;
+  padding: 10px;
+}
+
+.wrapper-small__btn {
+  width: 111px;
+  height: 36px;
+}
+.wrapper-small__btn .bnt-title {
+  padding: 8px;
+}
+
+.wrapper-small-btn_margin {
+  margin-right: 50px;
+}
+
+.wrapper-buttons_icon--size {
+  width: 20px;
+  height: 20px;
+  align-self: center;
+}
+
+.small__btn--icon {
+  display: inline-flex;
+}
+
+.tag-btn {
+  width: 65px;
+  height: 28px;
+  display: inline-flex;
+}
+.tag-btn--color {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  color: #2c2c2c;
+}
+.tag-btn--color-blue {
+  background: #18a0fb;
+  color: white;
+}
+
+.wrapper-tag {
+  margin-top: 10px;
+}
+
+.tag-title {
+  padding: 3px;
+  padding-right: 8px;
+}
+
+.icon--light-blue path {
+  color: #ffffff;
+  opacity: 0.7;
+}
+
+.tag-btn_small {
+  width: 51px;
+  height: 28px;
+}
+.tag-btn_small--color {
+  border: 1px solid #e0e0e0;
+  background: rgba(224, 224, 224, 0.3);
+  color: #2c2c2c;
 }

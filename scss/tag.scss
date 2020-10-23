@@ -1,0 +1,38 @@
+.tag-btn {
+    width: 65px;
+    height: 28px;
+    display: inline-flex;
+    &--color {
+        background: #ffffff;
+        border: 1px solid #e0e0e0;
+        color: #2c2c2c;
+    }
+    &--color-blue {
+        background: #18a0fb;
+        color: white;
+    }
+}
+
+.wrapper-tag {
+    margin-top: 10px;
+}
+
+.tag-title {
+    padding: 3px;
+    padding-right: 8px;
+}
+
+.icon--light-blue path {
+    color: #ffffff;
+    opacity: 0.7;
+}
+
+.tag-btn_small {
+    width: 51px;
+    height: 28px;
+    &--color {
+        border: 1px solid #e0e0e0;
+        background: rgba(224, 224, 224, 0.3);
+        color: #2c2c2c;
+    }
+}
