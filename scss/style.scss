@@ -16,8 +16,8 @@ body {
 }
 
 .wrapper-tab {
-    margin-top: 110px;
-    width: 380px;
+    margin-top: 120px;
+    width: 500px;
     height: 700px;
 }
 
@@ -35,6 +35,10 @@ button {
     cursor: pointer;
     outline: none;
     margin: 10px;
+}
+
+.search {
+    display: flex;
 }
 
 @import "button.scss";
