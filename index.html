@@ -347,7 +347,7 @@
     <section class="wrapper-tab">
       <div class="tab-big">
         <div class="tab-top">
-          <button class="tab-btn--active">
+          <button class="tab-btn tab-top_size btn-active">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path fill-rule="evenodd" clip-rule="evenodd"
                 d="M11 7C8.79086 7 7 8.79086 7 11C7 13.2091 8.79086 15 11 15C13.2091 15 15 13.2091 15 11C15 8.79086 13.2091 7 11 7ZM5 11C5 7.68629 7.68629 5 11 5C14.3137 5 17 7.68629 17 11C17 12.2958 16.5892 13.4957 15.8907 14.4765L19.7071 18.2929C20.0976 18.6834 20.0976 19.3166 19.7071 19.7071C19.3166 20.0976 18.6834 20.0976 18.2929 19.7071L14.4765 15.8907C13.4957 16.5892 12.2958 17 11 17C7.68629 17 5 14.3137 5 11Z"
@@ -355,9 +355,10 @@
             </svg>
           </button>
 
-          <button>
+          <button class="tab-btn2  tab-top_size btn-no-active">
 
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg class="icon_color--dark-grey" width="24" height="24" viewBox="0 0 24 24" fill="none"
+              xmlns="http://www.w3.org/2000/svg">
 
               <path d="M5 12V19H21V12" stroke="white" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
               <path d="M13 3.50073L13 13.5007" stroke="white" stroke-width="2" stroke-linecap="round"
@@ -370,7 +371,7 @@
 
           </button>
 
-          <button>
+          <button class="tab-btn3 tab-top_size btn-no-active">
             <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
               <path
                 d="M15 12.51H15.5V12.01V10.51H16.5V13.01C16.5 13.2869 16.2769 13.51 16 13.51H8C7.72314 13.51 7.5 13.2869 7.5 13.01V10.51H8.5V12.01V12.51H9H15Z"
@@ -383,29 +384,82 @@
           </button>
         </div>
 
-
-
-
-
         <div class="tab-center">
-          <button>Tab 1</button>
-          <button>Tab 1</button>
+          <button class="tab-btn tab-center_size btn-active">Tab 1</button>
+          <button class="tab-btn3 tab-center_size btn-no-active">Tab 1</button>
         </div>
         <div class="tab-bot">
-          <button>S</button>
-          <button>M</button>
-          <button>L</button>
+          <button class="tab-btn tab-bot_size btn-active">S</button>
+          <button class="tab-btn2 tab-bot_size btn-no-active">M</button>
+          <button class="tab-btn3 tab-bot_size btn-no-active">L</button>
         </div>
       </div>
+      <div class="tab-small">
+
+        <div class="tab">
+          <div class="tab-center">
+            <button class="tab-btn tab-small_size btn-active">Tab 1</button>
+            <button class="tab-btn3 tab-small_size btn-no-active">Tab 1</button>
+          </div>
+
+          <div class="tab-bot">
+            <button class="tab-btn tab_size btn-active">
+              <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11 7C8.79086 7 7 8.79086 7 11C7 13.2091 8.79086 15 11 15C13.2091 15 15 13.2091 15 11C15 8.79086 13.2091 7 11 7ZM5 11C5 7.68629 7.68629 5 11 5C14.3137 5 17 7.68629 17 11C17 12.2958 16.5892 13.4957 15.8907 14.4765L19.7071 18.2929C20.0976 18.6834 20.0976 19.3166 19.7071 19.7071C19.3166 20.0976 18.6834 20.0976 18.2929 19.7071L14.4765 15.8907C13.4957 16.5892 12.2958 17 11 17C7.68629 17 5 14.3137 5 11Z"
+                  fill="white" />
+              </svg>
+            </button>
+
+            <button class="tab-btn2  tab_size btn-no-active">
+
+              <svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11 7C8.79086 7 7 8.79086 7 11C7 13.2091 8.79086 15 11 15C13.2091 15 15 13.2091 15 11C15 8.79086 13.2091 7 11 7ZM5 11C5 7.68629 7.68629 5 11 5C14.3137 5 17 7.68629 17 11C17 12.2958 16.5892 13.4957 15.8907 14.4765L19.7071 18.2929C20.0976 18.6834 20.0976 19.3166 19.7071 19.7071C19.3166 20.0976 18.6834 20.0976 18.2929 19.7071L14.4765 15.8907C13.4957 16.5892 12.2958 17 11 17C7.68629 17 5 14.3137 5 11Z"
+                  fill="black" />
+              </svg>
+
+            </button>
+
+            <button class="tab-btn3 tab_size btn-no-active">
+              <svg class="" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path fill-rule="evenodd" clip-rule="evenodd"
+                  d="M11 7C8.79086 7 7 8.79086 7 11C7 13.2091 8.79086 15 11 15C13.2091 15 15 13.2091 15 11C15 8.79086 13.2091 7 11 7ZM5 11C5 7.68629 7.68629 5 11 5C14.3137 5 17 7.68629 17 11C17 12.2958 16.5892 13.4957 15.8907 14.4765L19.7071 18.2929C20.0976 18.6834 20.0976 19.3166 19.7071 19.7071C19.3166 20.0976 18.6834 20.0976 18.2929 19.7071L14.4765 15.8907C13.4957 16.5892 12.2958 17 11 17C7.68629 17 5 14.3137 5 11Z"
+                  fill="black" />
+              </svg>
+
+            </button>
+          </div>
+
+          <div class="tab-bot">
+            <button class="tab-btn tab-small_sizes btn-active">S</button>
+            <button class="tab-btn2 tab-small_sizes btn-no-active">M</button>
+            <button class="tab-btn3 tab-small_sizes btn-no-active">L</button>
+          </div>
+        </div>
+
+        <div class=" search--margin">
+          <button class="search-bg">
+            <svg width="24" height="24" viewBox="0 0 28 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11 7C8.79086 7 7 8.79086 7 11C7 13.2091 8.79086 15 11 15C13.2091 15 15 13.2091 15 11C15 8.79086 13.2091 7 11 7ZM5 11C5 7.68629 7.68629 5 11 5C14.3137 5 17 7.68629 17 11C17 12.2958 16.5892 13.4957 15.8907 14.4765L19.7071 18.2929C20.0976 18.6834 20.0976 19.3166 19.7071 19.7071C19.3166 20.0976 18.6834 20.0976 18.2929 19.7071L14.4765 15.8907C13.4957 16.5892 12.2958 17 11 17C7.68629 17 5 14.3137 5 11Z"
+                fill="white" />
+            </svg>
+          </button>
+
+        </div>
+        <div class=" search--margin">
+          <button class="search-bg_green">
+            <svg width="24" height="24" viewBox="0 0 25 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path fill-rule="evenodd" clip-rule="evenodd"
+                d="M11 7C8.79086 7 7 8.79086 7 11C7 13.2091 8.79086 15 11 15C13.2091 15 15 13.2091 15 11C15 8.79086 13.2091 7 11 7ZM5 11C5 7.68629 7.68629 5 11 5C14.3137 5 17 7.68629 17 11C17 12.2958 16.5892 13.4957 15.8907 14.4765L19.7071 18.2929C20.0976 18.6834 20.0976 19.3166 19.7071 19.7071C19.3166 20.0976 18.6834 20.0976 18.2929 19.7071L14.4765 15.8907C13.4957 16.5892 12.2958 17 11 17C7.68629 17 5 14.3137 5 11Z"
+                fill="white" />
+            </svg>
+          </button>
+        </div>
 
 
-
-
-
-
-      <div class="tab-small"></div>
-
-
+      </div>
     </section>
 
 
